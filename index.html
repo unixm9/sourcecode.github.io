@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Front End Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#364f6b">
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo192.png">
+    <link rel="apple-touch-icon" href="images/logo192.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        </head>
+
+<body>
+    
+    <main>
+        <header class="header">
+            <nav>
+                <div class="logo">
+                    <!-- <img src="images/logo192.png"> -->
+                    <p>FEW</p>
+                </div>
+                <ul class="ul">
+                    <li>
+                        <a href="http://ashishunixm9.000webhostapp.com/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC9vqZpApNd4M0Pl5yR4banw">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="http://unixm9.blogspot.com/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="news/news.html">News</a>
+                    </li>
+                </ul>
+                <div class="menubar">
+                    <i class='fa fa-bars'></i>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="mid-section" id="section">
+            <div class="heading box">
+                <p class="target">Source Code</p>
+            </div>
+            <div class="select">
+                <button id="toggle"><i class='fa fa-filter'></i></button>
+                <div class="btnSort">
+                        <button class="buttons" id="allBtn" data-target="all">All</button>
+                        <button class="buttons" id="easyBtn" data-target="easy">Easy</button>
+                        <button class="buttons" id="medBtn" data-target="medium">Medium</button>
+                        <button class="buttons" id="hardBtn" data-target="hard">Hard</button>
+                        <button class="buttons" id="search" data-target="all"><i class='fa fa-search'></i></button>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-bar" placeholder="Search">
+                <i class='fa fa-search'></i>
+                <i class="fa fa-times" id="search-close" aria-hidden="true"></i>
+            </div>
+            <div class="cards-box">
+                <div class="cards" data-id="medium">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Animate On Scroll | One line Code | AOS Library | AOS.js | Coding for Beginners ">Animation on scroll</p>
+                    </div>
+                    <div class="cards-rating">
+                       <div class="btn"><button class="view">
+                           <a href="https://sites.google.com/view/fewfrontendweb/animation-on-scroll">View Now</a></button></div>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+            
+                
+                <div class="cards" data-id="easy">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="How To Create Easily Awesome Looking Custom Scrollbar | Pure CSS | Easy Coding">Custom Scrollbar</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                        <a href="https://sites.google.com/view/fewfrontendweb/custom-scrollbar">View Now</a></button></div>
+                        <i class="fa fa-star" id="easy" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+            
+                <div class="cards" data-id="easy">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Fun With CSS Button Hover Effects | Advanced CSS Hover Effect | HTML and CSS ">Button Hover Effect</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/button-hover-effect">View Now</a></button></div>
+                        <i class="fa fa-star" id="easy" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards" data-id="medium">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Animated Navbar Using HTML and CSS">Animated Navbar</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/animated-navbar">View Now</a></button></div>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="hard">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Animated Sticky Navbar  | Change Header on Scroll | HTML CSS and Vanilla JavaScript ">Sticky Navbar</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/animated-sticky-navbar">View Now</a></button></div>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                    </div>
+                </div>
+            
+            
+                <div class="cards " data-id="medium">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Dropdown Menu Using HTML and CSS | Simple Coding ">Dropdown Menu</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/dropdown-menu">View Now</a></button></div>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards hard">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Accordion Menu Using HTML and CSS | No Framework ">Accordion Menu</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/accordion-menu">View Now</a></button></div>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="medium">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Fullscreen Video Background |Source Code Link | HTML and CSS | 2020 ">Fullscreen Video</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/fullscreen-video-background">View Now</a></button></div>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="medium">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title=" How to Create Fixed Side Navbar Using HTML ans CSS | Animated Navbar ">Side Navbar</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/side-navbar">View Now</a></button></div>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="easy">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Login Form Using HTML and CSS | HTML Login Form| Flat Design | Flat UI ">Animated Login Form</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/login-form">View Now</a></button></div>
+                        <i class="fa fa-star" id="easy" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="hard">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Simple Modal Box / Pop Up Using HTMl, CSS and Javascript | Most Advanced Modal Box ">Modal Box</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/modal-box">View Now</a></button></div>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                    </div>
+                </div>
+            
+                <div class="cards " data-id="medium">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title="Image Slideshow Under 5 Minutes | Image Slider | HTML ,CSS and JavaScript ">Image Slideshow</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/image-slideshow">View Now</a></button></div>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="medium" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="hard">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+
+                    <div class="cards-text">
+                        <p title="JavaScript Tutorial | Landing Page | This Page Changes With Respect To Time ">Dynamic Page</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/dynamic-page">View Now</a></button></div>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+                <div class="cards " data-id="hard">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title=" How To Create Tabs in Less Than 12 Minutes Using HTML CSS | Vanilla JavaScript Project ">Animated Tabs</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/tabs">View Now</a></button></div>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="hard" aria-hidden="true"></i>
+                    </div>
+                </div>
+            
+
+                <div class="cards " data-id="easy">
+                    <div class="cards-head">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="cards-text">
+                        <p title=" How To Create Horizontal Scroll Menu Bar | HTML and CSS | Link is in Description ">Horizontal Scroll</p>
+                    </div>
+                    <div class="cards-rating">
+                        <div class="btn"><button class="view">
+                            <a href="https://sites.google.com/view/fewfrontendweb/horizontal-scroll-menu-bar">View Now</a></button></div>
+                        <i class="fa fa-star" id="easy" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                        <i class="fa fa-star" id="blank" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        
+        </div>
+    </main>
+    <script src="./src/main.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/2aaa32ac3f.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
